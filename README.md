@@ -5,12 +5,14 @@ Here is a complete example that you can reproduce in order to understand better 
 
 Start by creating on table with the following dump:
 
+<code>
 CREATE TABLE `article` (
 `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
 `title` VARCHAR( 120 ) NOT NULL ,
 `description` TEXT NOT NULL ,
 `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE = MYISAM ;
+</code>
 
 Add some data to the table:
 
