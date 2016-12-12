@@ -15,16 +15,17 @@ CREATE TABLE `article` (
 </code>
 
 Add some data to the table:
-
+<code>
 INSERT INTO article (title, description) VALUES ('Title article 1','Description of the article 1');
 INSERT INTO article (title, description) VALUES ('Title article 2','Description of the article 2');
 INSERT INTO article (title, description) VALUES ('Title article 3','Description of the article 3');
 INSERT INTO article (title, description) VALUES ('Title article 4','Description of the article 4');
+</code>
 
 Here is the commented examples
 
 You can also find these examples in the "index.php" file attached for your convenience.
-
+<code>
 /*
 Display all the article titles.
 The selectAll() function returns the values as an object
@@ -126,3 +127,4 @@ echo '<b>Delete with a custom query</b>: <br>';
 $a1 = new Article();
 $sql = "DELETE FROM article WHERE id>'".$a1->escape($id)."'";
 //$a1->executeQuery($sql); 
+</code>
