@@ -25,6 +25,7 @@ INSERT INTO article (title, description) VALUES ('Title article 4','Description 
 Here is the commented examples
 
 You can also find these examples in the "index.php" file attached for your convenience.
+
 <code>
 /*
 Display all the article titles.
